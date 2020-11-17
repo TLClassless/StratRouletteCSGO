@@ -1,0 +1,655 @@
+{
+  "strats": [
+    {
+      "id": 2,
+      "name": "Redistribute the Wealth!",
+      "desc": "The player with the most cash must buy for everyone on the team, nobody else can purchase anything (not even armour)."
+    },
+    {
+      "id": 3,
+      "name": "Lag",
+      "desc": "If someone on your team kills the enemy teams top or bottom frag, the player who killed them cannot do anything until the round ends."
+    },
+    {
+      "id": 4,
+      "name": "Limited",
+      "desc": "You can only buy 1 item this round."
+    },
+    {
+      "id": 5,
+      "name": "Duplicator",
+      "desc": "You can only buy duplicates of things your team already owns (somebody carried over a Rifle from the previous round? you can buy that gun again)."
+    },
+    {
+      "id": 6,
+      "name": "Unique",
+      "desc": "Buy a weapon you haven't used this game."
+    },
+    {
+      "id": 7,
+      "name": "Limited Communication",
+      "desc": "You can only say swear words, the word 'A', and the word 'B'."
+    },
+    {
+      "id": 8,
+      "name": "Limited Time",
+      "desc": "When the timer hits 1:00 everyone must stop moving and shooting."
+    },
+    {
+      "id": 9,
+      "name": "Evenly Matched",
+      "desc": "If you kill the person parallel to you on the scoreboard (top frag kills top frag) then the player who killed them cannot do anything until the round ends."
+    },
+    {
+      "id": 10,
+      "name": "The Opener",
+      "desc": "Guns cannot be used until a knife, zeus, or grenade kill is achieved by anyone on the team."
+    },
+    {
+      "id": 11,
+      "name": "Gungame",
+      "desc": "You cannot use your primary, until you get a kill by other means (pistols, knife, etc.)."
+    },
+    {
+      "id": 12,
+      "name": "CRABS",
+      "desc": "Only crouch walking and Duel Berrettas."
+    },
+    {
+      "id": 13,
+      "name": "Artillery",
+      "desc": "Move slowly as a group and throw ALL of your nades at the first enemy you see."
+    },
+    {
+      "id": 14,
+      "name": "Is that a Jet Engine?",
+      "desc": "If anyone on the team dies, they must blow into their mics until the round ends."
+    },
+    {
+      "id": 15,
+      "name": "One in the Chamber",
+      "desc": "You only have 1 shot, however if you get a kill you may shoot again."
+    },
+    {
+      "id": 16,
+      "name": "What is this garbage?",
+      "desc": "You have to copy the crosshair of the enemy's bottom frag."
+    },
+    {
+      "id": 17,
+      "name": "How does he play with this?",
+      "desc": "You have to copy the crosshair of the enemy's top frag."
+    },
+    {
+      "id": 18,
+      "name": "Invisible Aiming",
+      "desc": "Set your crosshair's alpha value to 0."
+    },
+    {
+      "id": 19,
+      "name": "Decoy",
+      "desc": "Everyone buy a decoy grenade and throw it a site of your choice, then stack the same site."
+    },
+    {
+      "id": 20,
+      "name": "Point me the Way",
+      "desc": "Everyone must group up, then upon coming to an intersection must draw an arrow with bullets indicating where they are going, take turns drawing arrows."
+    },
+    {
+      "id": 21,
+      "name": "SMG Jumpshot",
+      "desc": "Choose an SMG, you can only get kills with it in the air."
+    },
+    {
+      "id": 22,
+      "name": "Biggest PP",
+      "desc": "One teammate must use an M249 (or negev if too expensive) and armour, everyone else must use a PP-Bizon and no armour."
+    },
+    {
+      "id": 23,
+      "name": "Grave Robbery",
+      "desc": "Upon getting a kill you MUST use the weapon your victim dropped, no getting attacking before you pick up their weapon."
+    },
+    {
+      "id": 24,
+      "name": "MR. PRESIDENT",
+      "desc": "Choose a player to be the president, they must get rid of all their weapons. The rest of the team has to protect them at all costs while yelling secret service quotes ('GET DOWN MR.PRESIDENT', 'BREACH BREACH BREACH', etc.)."
+    },
+    {
+      "id": 25,
+      "name": "Autobuy",
+      "desc": "You must use whatever the F3 autobuy gives you."
+    },
+    {
+      "id": 26,
+      "name": "RETREAT!!!",
+      "desc": "The only movement key you can use is S."
+    },
+    {
+      "id": 27,
+      "name": "Strafing is all I Know",
+      "desc": "The only movement keys you can use are A and D."
+    },
+    {
+      "id": 28,
+      "name": "Swapped Hands",
+      "desc": "Switch your mouse hand and your keyboard hand."
+    },
+    {
+      "id": 29,
+      "name": "Double or Nothing",
+      "desc": "Do 2 random Strats and do your best to complete both of them at once."
+    },
+    {
+      "id": 30,
+      "name": "BULLET HELL",
+      "desc": "Everyone buy an LMG (or a PP-Bizon ONLY if you are too poor), once you start firing you cannot stop, when you run out of ammo you cannot attack."
+    },
+    {
+      "id": 31,
+      "name": "Da Hood",
+      "desc": "Before the round starts everyone type 'finna shoot you up' then buy an SMG and preform 'drive-bys' on the enemy, never stopping."
+    },
+    {
+      "id": 32,
+      "name": "Even or Odd?",
+      "desc": "If your score on the leaderboard is even, you can use a Rifle and armour, if it is odd then you can only use a Shotgun and Pistol with no armour."
+    },
+    {
+      "id": 33,
+      "name": "So no head?",
+      "desc": "If you get a headshot you cannot do anything until the round ends, aim for the body!"
+    },
+    {
+      "id": 34,
+      "name": "Pistol 2 Primary",
+      "desc": "To kill an enemy you must first hit them once with your pistol, then you must finish them off with your primary."
+    },
+    {
+      "id": 35,
+      "name": "Full Composition",
+      "desc": "Each person must pick one of these weapons: SMG, Rifle, Shotgun, LMG, and Pistol. No weapon can be repeated."
+    },
+    {
+      "id": 36,
+      "name": "Wealth Imbalance",
+      "desc": "If you have over $4000 buy a Shotgun, otherwise use whatever guns you can find from dead enemies."
+    },
+    {
+      "id": 37,
+      "name": "Family Heirloom",
+      "desc": "Have your team drop all their weapons. Have 2 members buy either a Rifle or LMG, those are the only guns that can be used, when those people die pick up their gun."
+    },
+    {
+      "id": 38,
+      "name": "NEGEV!!!",
+      "desc": "Buy a Negev and a decoy grenade and ruin your enemies ears."
+    },
+    {
+      "id": 39,
+      "name": "Dog Tags",
+      "desc": "When you kill an enemy you must drop everything and type the enemys name into chat."
+    },
+    {
+      "id": 40,
+      "name": "Gun Flex",
+      "desc": "When you kill an enemy you must drop everything and type the name of the gun you killed them with into chat."
+    },
+    {
+      "id": 41,
+      "name": "Rich get Richer",
+      "desc": "The person with the most money must get the first kill before anyone else can attack, if they die before they get a kill then the next highest person takes their place."
+    },
+    {
+      "id": 42,
+      "name": "The Ol' Switcheroo",
+      "desc": "You must use your opposite hand for the mouse."
+    },
+    {
+      "id": 43,
+      "name": "One Clip to Rule Them All",
+      "desc": "Buy a Rifle or SMG (your choice) and win the round without reloading."
+    },
+    {
+      "id": 44,
+      "name": "Split",
+      "desc": "3 people go a site of your choice with SMG, the remaining 2 go to the other site with Rifle, once you reach your assigned site you cannot leave it."
+    },
+    {
+      "id": 45,
+      "name": "Soundcloud 'Artist'",
+      "desc": "All callouts need to be rapped."
+    },
+    {
+      "id": 46,
+      "name": "Making Enemies of Friends",
+      "desc": "Every player buys their most hated gun and gives it to a teammate."
+    },
+    {
+      "id": 47,
+      "name": "Making Enemies of Friends",
+      "desc": "Every player buys their most hated gun and gives it to a teammate."
+    },
+    {
+      "id": 48,
+      "name": "Charge your gun",
+      "desc": "Before shooting your primary you must first get a kill with a zeus, if you miss with your zeus you can only use your knife."
+    },
+    {
+      "id": 49,
+      "name": "Stay Low",
+      "desc": "You must crouch the whole round (use +duck if you would like)."
+    },
+    {
+      "id": 50,
+      "name": "Back to the Basics",
+      "desc": "No jumping, crouching, walking, or aiming down sights."
+    },
+    {
+      "id": 51,
+      "name": "Wounded",
+      "desc": "You cannot attack until you lose health because of an enemy."
+    },
+    {
+      "id": 52,
+      "name": "Don't Scratch the Guns",
+      "desc": "You can only use guns while at 100 health."
+    },
+    {
+      "id": 53,
+      "name": "I've Got You in My Sights",
+      "desc": "Scope for the whole round, never unscope."
+    },
+    {
+      "id": 54,
+      "name": "Asleep at the Mouse",
+      "desc": "You cannot touch your mouse until the timer hits 1:15, however you can use your keyboard."
+    },
+    {
+      "id": 55,
+      "name": "Bro You Deaf?",
+      "desc": "Set CS:GO's 'master volume' to zero."
+    },
+    {
+      "id": 56,
+      "name": "Guide the blind",
+      "desc": "Choose a player, they and the top frag must play with their eyes closed."
+    },
+    {
+      "id": 57,
+      "name": "Full Speed ahead",
+      "desc": "You must hold the W key, no other movement keys can be pressed."
+    },
+    {
+      "id": 58,
+      "name": "Bunny Hops",
+      "desc": "Spam Jump for the whole round, mouse wheel is your friend here."
+    },
+    {
+      "id": 59,
+      "name": "Gladiator",
+      "desc": "Only two people can leave spawn at one time, upon one of them getting killed one more person can leave spawn."
+    },
+    {
+      "id": 60,
+      "name": "Gladiator",
+      "desc": "Only two people can leave spawn at one time, upon one of them getting killed one more person can leave spawn."
+    },
+    {
+      "id": 61,
+      "name": "Rich Kids",
+      "desc": "You can only use weapons that have skins with qualities purple or above (zeus is also allowed)."
+    },
+    {
+      "id": 62,
+      "name": "Poor Kids",
+      "desc": "You can only use weapons that don't have skins (zeus is also allowed)."
+    },
+    {
+      "id": 63,
+      "name": "Give them a Chance",
+      "desc": "You can only buy this round if you didn't get a kill last round."
+    },
+    {
+      "id": 64,
+      "name": "Round Robin Rifle",
+      "desc": "Your team must compose of one of each rifle (ex. one Scout, one awp, etc.)."
+    },
+    {
+      "id": 65,
+      "name": "Round Robin SMG",
+      "desc": "Your team must compose of one of each SMG (ex. one UMP, one P90, etc.)."
+    },
+    {
+      "id": 66,
+      "name": "Helper",
+      "desc": "The person with the most assists is the only one allowed a mic, everyone else must mute themselves."
+    },
+    {
+      "id": 67,
+      "name": "Shotgun RUSHER",
+      "desc": "Rush into the enemy spawn with a Shotgun or an SMG, once you reach there you can return to the regular game."
+    },
+    {
+      "id": 68,
+      "name": "PUULLLLLLLL",
+      "desc": "Buy a Shotgun or a Sniper and everytime you fire you have to yell 'PUUULLLLLL!' as if you were on a shooting range."
+    },
+    {
+      "id": 69,
+      "name": "Bad Habits",
+      "desc": "You can only fire a single bullet before you have to reload your gun."
+    },
+    {
+      "id": 70,
+      "name": "Resolute",
+      "desc": "Turn down your resolution to the lowest it will go (take a timeout if nessessary)."
+    },
+    {
+      "id": 71,
+      "name": "Discharge",
+      "desc": "You must buy 4 grenades and throw them all before shooting your gun."
+    },
+    {
+      "id": 72,
+      "name": "Special Snowflake",
+      "desc": "Nobody on your team can be using the same gun, pistols included."
+    },
+    {
+      "id": 73,
+      "name": "Social Distancing",
+      "desc": "Nobody can be in the same room as another person."
+    },
+    {
+      "id": 74,
+      "name": "Habenero Taco Mexicano",
+      "desc": "Refer to everything as 'amigo' and speak in an awful Spanish/Mexican accent."
+    },
+    {
+      "id": 75,
+      "name": "Nuke",
+      "desc": "Buy grenades first, throw ALL of them a site of your choice, then run back to the other site."
+    },
+    {
+      "id": 76,
+      "name": "GOGlobal.cheat",
+      "desc": "Promote the fake cheat GOGlobal.cheat by typing things into chat like 'subscribe to GOGlobal.cheat for free aim haks'."
+    },
+    {
+      "id": 77,
+      "name": "Incorrect Callouts",
+      "desc": "You must incorrectly callout everything."
+    },
+    {
+      "id": 78,
+      "name": "Stockpile",
+      "desc": "If you kill an enemy you must take their gun back to spawn and place it in a pile."
+    },
+    {
+      "id": 79,
+      "name": "The Decider",
+      "desc": "Choose a player, they must pick which team mates get one of each type of weapon, each weapon can only be used by 1 person. a Rifle, an SMG, an LMG, a Shotgun, and a Pistol."
+    },
+    {
+      "id": 80,
+      "name": "The Decision",
+      "desc": "Choose a player, they must pick between one of these options. <br>1. No armour, if you carried it over from previous rounds you must stay in spawn the whole round. <br>2. Everyone must use an SMG."
+    },
+    {
+      "id": 81,
+      "name": "One of two",
+      "desc": "Choose a player, they must pick between one of these options. <br>1. Everyone must use a SMG and a Pistol without armour. <br>2. Everyone must use a Shotgun and no pistol with armour."
+    },
+    {
+      "id": 82,
+      "name": "Top Frag decides",
+      "desc": "The top frag must pick between one of these options. <br>1. Everyone stack a site of your choice site with an LMG. <br>2. Dualies only."
+    },
+    {
+      "id": 83,
+      "name": "Middle Frag decides",
+      "desc": "The middle frag must pick between one of these options. <br>1. Only an SMG and a Pistol with no armour or grenades. <br>2. A shotgun and no pistol with armour and grenades."
+    },
+    {
+      "id": 84,
+      "name": "Bottom Frag decides",
+      "desc": "The bottom frag must pick between one of these options. <br>1. The bottom frag is the only one allowed to have armour. <br>2. Everyone but the bottom frag can have armour."
+    },
+    {
+      "id": 85,
+      "name": "Site Specific",
+      "desc": "If you go to a site of your choice you have to use an SMG or a Shotgun, if you go to the other site you have to use a Rifle."
+    },
+    {
+      "id": 86,
+      "name": "Armour Specific",
+      "desc": "If you use armour you have to use a shotgun, if you don't have armour you can use anything other than a shotgun."
+    },
+    {
+      "id": 87,
+      "name": "Nascar",
+      "desc": "Everytime you are running you have to make car noises."
+    }
+  ],
+
+  "ct": [
+    {
+      "id": 88,
+      "name": "CT Specific",
+      "desc": "Use only CT specific guns, no rifles."
+    },
+    {
+      "id": 89,
+      "name": "CT Crickets",
+      "desc": "Buy a FAMAS and whenever you arn't shooting, hold down the 'scope button'."
+    },
+    {
+      "id": 90,
+      "name": "SpecOps",
+      "desc": "Only silenced weapons are allowed, you must walk constantly, and you can only whisper into the mic."
+    },
+    {
+      "id": 91,
+      "name": "Ready to Strike",
+      "desc": "Hide in spawn until the bomb is planted, then you may leave."
+    },
+    {
+      "id": 92,
+      "name": "Behind enemy lines",
+      "desc": "Nobody can use guns until one member of your team makes it to the enemy spawn."
+    },
+    {
+      "id": 93,
+      "name": "Ninja Clan",
+      "desc": "Everyone tries to Ninja Defuse (defuse in smoke infront of the enemy team)."
+    },
+    {
+      "id": 94,
+      "name": "Hide and Bide",
+      "desc": "Everyone stack a site of your choice and hide in smoke until the bomb is planted."
+    },
+    {
+      "id": 95,
+      "name": "Juggernaut",
+      "desc": "One person buys a LMG or a Shotgun (your choice) and armour, while everyone else ONLY buys a defuse kit. Only when the juggernaut dies can anybody else attack."
+    },
+    {
+      "id": 96,
+      "name": "Always Rotating",
+      "desc": "Constantly run between A and B until the bomb is planted."
+    },
+    {
+      "id": 97,
+      "name": "Turrets",
+      "desc": "Make a 2 man tower on each bomb site, the person on top has to use an LMG or a RIFLE (your choice), the person on bottom has to use an SMG."
+    },
+    {
+      "id": 98,
+      "name": "No Losses",
+      "desc": "You cannot defuse the bomb, you better rotate quick."
+    },
+    {
+      "id": 99,
+      "name": "The Ultimate Trick",
+      "desc": "Buy smokes and decoys, throw all of your decoys at a site of your choice then hide in smoke on the other site."
+    },
+    {
+      "id": 100,
+      "name": "The Ultimate Trick",
+      "desc": "Buy smokes and decoys, throw all of your decoys at a site of your choice then hide in smoke on the other site."
+    },
+    {
+      "id": 101,
+      "name": "Hard Carry",
+      "desc": "The 3 top frags try their absolute best to win the round, the others try to stop them without directly hurting them (ex. you can flash, body block, etc.)."
+    },
+    {
+      "id": 102,
+      "name": "Bottom Carry",
+      "desc": "The 4 bottom frags try their absolute best to win the round, the top frag trys to stop them without directly hurting them (ex. you can flash, body block, etc.)."
+    },
+    {
+      "id": 103,
+      "name": "An Even Carry",
+      "desc": "Every one with an even score on the scoreboard trys their absolute best to win the round, the others try to stop them without directly hurting them (ex. you can flash, body block, etc.)."
+    },
+    {
+      "id": 104,
+      "name": "Harrassment",
+      "desc": "You must follow the plan layed out by your teams bottom frag, you also must insult the plan for its every possible failure."
+    },
+    {
+      "id": 105,
+      "name": "Bottom Hold",
+      "desc": "The bottom frag camps on a site of your choice, everyone else goes to the other site, you can only rotate if the bottom frag dies."
+    },
+    {
+      "id": 106,
+      "name": "Highly Funded Government Operation",
+      "desc": "You can only buy if you have over $5000."
+    },
+    {
+      "id": 107,
+      "name": "Let them Grow",
+      "desc": "Kill 4 enemies, then let the last plant the bomb, then kill them."
+    },
+    {
+      "id": 108,
+      "name": "SWAG-7",
+      "desc": "Everyone buy a MAG-7, when you get a kill with it drop everything and type in chat 'swag-7 :)'."
+    },
+    {
+      "id": 109,
+      "name": "Take Their Base",
+      "desc": "Grab a shotgun and run back and forth between CT spawn and T spawn until the bomb is planted."
+    }
+  ],
+
+  "t": [
+    {
+      "id": 110,
+      "name": "T Specific",
+      "desc": "Use only T specific guns, no rifles."
+    },
+    {
+      "id": 111,
+      "name": "T Crickets",
+      "desc": "Rush a site of your choice with only the Glock while holding down the 'scope button'."
+    },
+    {
+      "id": 112,
+      "name": "Afterplant",
+      "desc": "Once the bomb is planted you can no longer move."
+    },
+    {
+      "id": 113,
+      "name": "Frozen Bomb",
+      "desc": "While you are holding the bomb you cannot move."
+    },
+    {
+      "id": 114,
+      "name": "Fragile Cargo",
+      "desc": "The bomb carrier must throw away all their weapons and can only crouch walk."
+    },
+    {
+      "id": 115,
+      "name": "Surprise",
+      "desc": "Use 10 flashes to rush a site of your choice with no regard for flashing your teammates."
+    },
+    {
+      "id": 116,
+      "name": "Sssneaky Sssnake",
+      "desc": "Make a 'smoke train' to silently enter the bomb site."
+    },
+    {
+      "id": 117,
+      "name": "Special Delivery",
+      "desc": "Have the bomb carrier rush a site of your choice and (probably) die, everyone else must first go to the other site before retrieving the bomb."
+    },
+    {
+      "id": 118,
+      "name": "Even Split",
+      "desc": "If your score on the scoreboard is even then go a site of your choice, otherwise go to the other site. You cannot leave your site until the bomb is planted."
+    },
+    {
+      "id": 119,
+      "name": "Moral Support",
+      "desc": "4 players rush while the other stays behind 'inspiring' them."
+    },
+    {
+      "id": 120,
+      "name": "Boomerang",
+      "desc": "Rush a site of your choice, then T spawn, then back to the site, then plant."
+    },
+    {
+      "id": 121,
+      "name": "Never Out Of My Sight",
+      "desc": "The bomb carrier buys an SMG and does whatever they want, the remaining people pair up and must face their partner."
+    },
+    {
+      "id": 122,
+      "name": "The Supplier",
+      "desc": "The bomb carrier is the only one on the team who can buy weapons for the whole team."
+    },
+    {
+      "id": 123,
+      "name": "Like Chickens to a...",
+      "desc": "Rush the tighest chokepoint on the map one by one."
+    },
+    {
+      "id": 124,
+      "name": "Lie in Wait",
+      "desc": "You can't enter a bomb site until there is 30 seconds remaining."
+    },
+    {
+      "id": 125,
+      "name": "Campers",
+      "desc": "Nobody can leave spawn until one of your teammates gets a kill."
+    },
+    {
+      "id": 126,
+      "name": "Strike Fear",
+      "desc": "Plant the bomb using only grenades, once the bomb is planted you can use your guns."
+    },
+    {
+      "id": 127,
+      "name": "The Greatest Plan",
+      "desc": "Follow this plan: Mid -> a site of your choice -> CT Spawn -> Then plant on the same site."
+    },
+    {
+      "id": 128,
+      "name": "A Traitor",
+      "desc": "The bottom frag trys their absolute best to lose the round by flashing their team, body blocking, stealing the bomb, etc."
+    },
+    {
+      "id": 129,
+      "name": "Underfunded Cave Dwellers",
+      "desc": "You can spend a max of $1500 this round."
+    },
+    {
+      "id": 130,
+      "name": "McDonalds",
+      "desc": "Everyone buy a MAC-10, when you get a kill with it drop everything and type in chat 'big mac?'."
+    }
+  ]
+}
