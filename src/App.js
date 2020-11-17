@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/TLClassless/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Created with ❤️ by TLC*
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css";
+
+class App extends Component {
+  state = {
+    side: [
+      {
+        id: 1,
+        counterTerrorist: true,
+      },
+      {
+        id: 2,
+        counterTerrorist: false,
+      },
+    ],
+  };
+
+  getBackground = () => {
+    return {
+      background: "#f4f4f4",
+      padding: "19px",
+    };
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <h3 style={this.getBackground()}> Hello World </h3>
+      </div>
+    );
+  }
 }
 
 export default App;
