@@ -1,4 +1,4 @@
-# Welcome to Strat Roulette!
+# Welcome to Strat Roulette! 🔫
 
 This **definitely** isn't the first Strat Roulette website, it's probably not even the first one on github, but here it is, a revolutionary game, coming to a Competitive CS:GO match near you, the all new **STRAT ROULETTE!™** 
 
