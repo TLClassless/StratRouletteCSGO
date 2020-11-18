@@ -8,17 +8,3 @@ Hope you guys enjoy, have fun and lemme know what you think! If you have any sug
 
 
 ### Made with React.js
-
-
-
-## Should you play Strat Roulette or Regular CS:GO?
-
-I made this little chart so you could make your decision
-
-```mermaid
-graph LR
-A[Thoughts on Winning Games?] 
-A --> B(Bored of it, just winning constantly.)
-A --> C(I'm a try hard loser that doesn't like fun)
-B --> D(Hell yeah brother play some SR)
-C --> F(I guess play regular CS then...)
