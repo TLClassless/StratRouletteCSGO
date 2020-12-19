@@ -3,30 +3,26 @@ import React, { Component } from "react";
 import "./App.css";
 
 class App extends Component {
-  state = {
-    side: [
-      {
-        id: 1,
-        counterTerrorist: true,
-      },
-      {
-        id: 2,
-        counterTerrorist: false,
-      },
-    ],
-  };
-
-  getBackground = () => {
-    return {
-      background: "#f4f4f4",
-      padding: "19px",
-    };
-  };
+  myfunction() {
+    console.log("CLICKED");
+  }
 
   render() {
     return (
       <div className="App">
-        <h3 style={this.getBackground()}> Hello World </h3>
+        <h1 className="title">Strat Name</h1>
+        <h3 className="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </h3>
+        <input type="submit" value="New Strat" className="btn btn-new" />
+        <button>
+          <img
+            src="../../public/logo512.png"
+            alt="CT/T Switch"
+            onClick={this.myfunction}
+          />
+        </button>
       </div>
     );
   }

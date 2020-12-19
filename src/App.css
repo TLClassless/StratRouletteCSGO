@@ -1,5 +1,19 @@
-.App {
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 50pt;
+  margin: 0;
+}
+
+.description {
+  font-size: 40pt;
 }
 
 .App-logo {
