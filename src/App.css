@@ -7,6 +7,25 @@ body {
   height: 100vh;
 }
 
+.btn {
+  cursor: pointer;
+}
+
+.strat-btn {
+  height: 40pt;
+  padding: 0 20pt;
+  font-size: 12pt;
+  font-weight: 600;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40pt;
+  width: 300px;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -19,7 +38,11 @@ body {
 }
 
 .ct {
-  background-color: #2e469c;
+  background-color: #304b74;
+}
+
+.ct-btn {
+  color: #304b74;
 }
 
 .cont-3rd-width {
@@ -31,46 +54,11 @@ body {
 }
 
 .title {
-  font-size: 50pt;
+  font-size: 36pt;
   margin: 0;
 }
 
 .description {
-  font-size: 40pt;
+  font-size: 26pt;
   margin: 15pt 0 20pt 0;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

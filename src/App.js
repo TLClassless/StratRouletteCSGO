@@ -22,11 +22,13 @@ class App extends Component {
       <div className="App ct">
         <h1 className="title">{this.state.name}</h1>
         <h3 className="description cont-3rd-width">{this.state.desc}</h3>
-        <div>
-          <input type="submit" value="New Strat" className="btn btn-new" />
-          <button>
-            <img src="../../public/logo512.png" alt="CT/T Switch" />
-          </button>
+        <div className="btn-div">
+          <input
+            type="submit"
+            value="New Strat"
+            className="btn strat-btn ct-btn"
+          />
+          <img src="./ctt.png" alt="CT/T Switch" className="btn" />
         </div>
       </div>
     );
