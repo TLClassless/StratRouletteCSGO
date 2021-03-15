@@ -12,7 +12,7 @@ body {
 }
 
 .strat-btn {
-  height: 40pt;
+  height: 4rem;
   padding: 0 20pt;
   font-size: 12pt;
   font-weight: 600;
@@ -22,11 +22,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 40pt;
-  width: 300px;
+  height: 4rem;
+  width: 18rem;
 }
 
-/* .App {
+.App {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,38 +35,26 @@ body {
   height: 100vh;
   width: 100vw;
   color: #fff;
-} */
+}
 
 .ct {
   background-color: #304b74;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
-  color: #fff;
+}
+
+.t {
+  background-color: #9b8433;
 }
 
 .ct-btn {
   color: #304b74;
 }
 
-.cont-3rd-width {
-  width: 75%;
+.t-btn {
+  color: #9b8433;
 }
 
-.t {
-  background-color: #9b8433;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
-  color: #fff;
+.cont-3rd-width {
+  width: 75%;
 }
 
 .title {
@@ -77,4 +65,8 @@ body {
 .description {
   font-size: 26pt;
   margin: 15pt 0 20pt 0;
+}
+
+.switchSides {
+  height: 4rem;
 }
