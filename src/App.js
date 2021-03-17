@@ -29,16 +29,17 @@ class App extends Component {
       <div className={isCT ? "App ct" : "App t"}>
         <h1 className="title">{this.state.name}</h1>
         <h3 className="description cont-3rd-width">{this.state.desc}</h3>
+        <StratList isCT={isCT} />
         <div className="btn-div">
-          <button
+          <input
             value="New Strat"
+            type="button"
             className={isCT ? "ct-btn btn strat-btn" : "t-btn btn strat-btn"}
           />
           <div
             className="switchSides"
             onClick={() => this.setState({ isCT: !isCT })}
           >
-            <StratList isCT={isCT} />
             <img
               src="./ctt.png"
               alt="CT/T Switch"
