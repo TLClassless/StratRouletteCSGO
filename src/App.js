@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-import axios from "axios";
+// import axios from "axios";
 import "./App.css";
 import StratList from "./components/StratList.js";
 
 class App extends Component {
-  componentDidMount() {
-    axios
-      .get(`https://tlclassless.github.io/stratRouletteAPI/Data/strats.json`)
-      .then((res) => {
-        const strat = res.data.strats;
-        const stratSelect = strat[Math.floor(Math.random() * strat.length)];
-        this.setState(() => {
-          return stratSelect;
-        });
-      });
-  }
+  // componentDidMount() {
+  //   axios
+  //     .get(`https://tlclassless.github.io/stratRouletteAPI/Data/strats.json`)
+  //     .then((res) => {
+  //       const strat = res.data.strats;
+  //       const stratSelect = strat[Math.floor(Math.random() * strat.length)];
+  //       this.setState(() => {
+  //         return stratSelect;
+  //       });
+  //     });
+  // }
 
   state = {
     isCT: true,
@@ -23,7 +23,6 @@ class App extends Component {
   render() {
     const isCT = this.state.isCT;
     console.log(isCT);
-    console.log(this.state.name);
 
     return (
       <div className={isCT ? "App ct" : "App t"}>

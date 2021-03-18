@@ -3,43 +3,49 @@ import axios from "axios";
 
 export default class StratList extends Component {
   state = {
-    strats: [],
+    ctStrats: [],
+    tStrats: [],
   };
 
-  componentDidMount() {
-    axios
+  async componentDidMount() {
+    const ctStrats = await axios
       .get(`https://tlclassless.github.io/stratRouletteAPI/Data/strats.json`)
       .then((res) => {
-        console.log(res.data);
-        this.setState({ strats: res.data });
+        this.setState({
+          ctStrats: [].concat(res.data.strats, res.data.ct),
+        });
+      });
+
+    const tStrats = await axios
+      .get(`https://tlclassless.github.io/stratRouletteAPI/Data/strats.json`)
+      .then((res) => {
+        this.setState({
+          tStrats: [].concat(res.data.strats, res.data.t),
+        });
       });
   }
 
   render() {
-    const ctStrats = this.state.strats.ct;
-    const strats = this.state.strats.strats;
-    const tStrats = this.state.strats.t;
+    const ct = this.state.ctStrats;
+    const t = this.state.tStrats;
 
-    const ct = [].concat(ctStrats, strats);
-    const t = [].concat(tStrats, strats);
+    console.log(ct, t);
 
     const ctStrat = ct[Math.floor(Math.random() * ct.length)];
-    // const ctStratName = JSON.stringify(ctStrat["name"]);
-    // const ctStratDesc = JSON.stringify(ctStrat["desc"]);
-
     const tStrat = t[Math.floor(Math.random() * t.length)];
 
     if (this.props.isCT === true) {
       return (
         <div>
-          <h1>CT</h1>
+          {/* <h1>{ctStrat.name}</h1> */}
+          {/* <h3>{ctStrat.desc}</h3> */}
         </div>
       );
     } else {
       return (
         <div>
-          <h1>{JSON.stringify(tStrat["name"])}</h1>
-          <h3>{JSON.stringify(tStrat["desc"])}</h3>
+          <h1>{tStrat.name}</h1>
+          <h3>{tStrat.desc}</h3>
         </div>
       );
     }
