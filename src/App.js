@@ -17,8 +17,10 @@ class App extends Component {
 
     if (isCT === true) {
       Prompt = <CtStrat />;
-    } else {
+    } else if (isCT === false) {
       Prompt = <TStrat />;
+    } else {
+      Prompt = <img src="../public/loader.svg" alt="" />;
     }
 
     return (
@@ -29,6 +31,7 @@ class App extends Component {
             value="New Strat"
             type="button"
             className={isCT ? "ct-btn btn strat-btn" : "t-btn btn strat-btn"}
+            onClick={() => this.forceUpdate()}
           />
           <div
             className="switchSides"
