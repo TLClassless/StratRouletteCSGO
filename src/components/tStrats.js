@@ -23,6 +23,7 @@ export default class tStrat extends Component {
   render() {
     console.log(this.state.tStrats);
     const tStrat = this.state.tStrats;
+    console.log(this.props.number);
 
     return (
       <div className="prompt">

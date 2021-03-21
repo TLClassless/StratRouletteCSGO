@@ -7,7 +7,12 @@ import TStrat from "./components/tStrats";
 class App extends Component {
   state = {
     isCT: true,
+    num: 0,
   };
+
+  handleClick() {
+    this.setState((state) => ({ num: state.num + 1 }));
+  }
 
   render() {
     const isCT = this.state.isCT;
@@ -16,11 +21,9 @@ class App extends Component {
     let Prompt;
 
     if (isCT === true) {
-      Prompt = <CtStrat />;
+      Prompt = <CtStrat key={this.state.num} />;
     } else if (isCT === false) {
-      Prompt = <TStrat />;
-    } else {
-      Prompt = <img src="../public/loader.svg" alt="" />;
+      Prompt = <TStrat key={this.state.num} />;
     }
 
     return (
@@ -31,7 +34,7 @@ class App extends Component {
             value="New Strat"
             type="button"
             className={isCT ? "ct-btn btn strat-btn" : "t-btn btn strat-btn"}
-            onClick={() => this.forceUpdate()}
+            onClick={this.handleClick.bind(this)}
           />
           <div
             className="switchSides"
