@@ -1,5 +1,6 @@
 FROM node:12
-ADD . /home/node
+WORKDIR /home/node/
+ADD . /
 RUN ls
-RUN cd home/node/ && npm install
-CMD cd home/node/ && npm run start
+RUN npm install
+CMD npm run start

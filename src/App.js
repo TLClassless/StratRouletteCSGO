@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactTooltip from "react-tooltip";
 // import axios from "axios";
 import "./App.css";
 import CtStrat from "./components/ctStrats";
@@ -19,11 +20,32 @@ class App extends Component {
     console.log(isCT);
 
     let Prompt;
+    let Tooltip;
 
     if (isCT === true) {
       Prompt = <CtStrat key={this.state.num} />;
     } else if (isCT === false) {
       Prompt = <TStrat key={this.state.num} />;
+    }
+
+    if (!window.localStorage) {
+      Tooltip = undefined;
+    } else {
+      if (!window.localStorage.isReturningVisitor) {
+        Tooltip = (
+          <ReactTooltip
+            id="registerTip"
+            place="bottom"
+            effect="solid"
+            backgroundColor="white"
+            textColor="black"
+            offset={{ bottom: 15 }}
+          >
+            Click to Change Sides
+          </ReactTooltip>
+        );
+        window.localStorage.isReturningVisitor = true;
+      }
     }
 
     return (
@@ -41,10 +63,13 @@ class App extends Component {
             onClick={() => this.setState({ isCT: !isCT })}
           >
             <img
+              data-tip
+              data-for="registerTip"
               src="./ctt.png"
               alt="CT/T Switch"
               className="btn switchSides"
             />
+            {Tooltip}
           </div>
         </div>
       </div>
