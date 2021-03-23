@@ -7,11 +7,8 @@ export default class Header extends Component {
       <div className="header">
         <div className="branding">
           <img src="headshot.png" alt="" />
-          <h1>Strat Roulette</h1>
+          <h1>CS:GO Strat Roulette</h1>
         </div>
-        <ul className="Navigation">
-          <li>Suggest a Strat</li>
-        </ul>
       </div>
     );
   }

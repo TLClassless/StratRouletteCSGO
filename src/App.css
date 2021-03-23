@@ -82,20 +82,19 @@ body {
   display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content: space-between;
+  justify-content: center;
   position: absolute;
   width: 100%;
   top: 0;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .branding {
   display: flex;
   flex-direction: row;
-  text-align: left;
+  text-align: center;
   justify-content: center;
   align-content: center;
-  margin-left: 3rem;
 }
 
 .branding img {
@@ -107,27 +106,6 @@ body {
   margin-left: 1rem;
 }
 
-.Navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: right;
-  margin: 0;
-  padding: 0;
-  margin-right: 3rem;
-  list-style-type: none;
-}
-
-.Navigation li {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  margin-left: 1rem;
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -137,4 +115,40 @@ body {
   text-decoration: none;
   font-weight: 800;
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  .branding img {
+    height: 1.5rem;
+  }
+
+  .branding h1 {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 20pt;
+  }
+
+  .description {
+    font-size: 15pt;
+    margin: 0.5rem 2rem 1rem 2rem;
+  }
+
+  .strat-btn {
+    height: 3.5rem;
+    padding: 0 0.5rem;
+    font-size: 10pt;
+    height: 3rem;
+  }
+
+  .btn-div {
+    width: 13rem;
+    height: 3rem;
+  }
+
+  .switchSides {
+    height: 3rem;
+  }
 }
