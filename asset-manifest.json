@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/StratRouletteCSGO/static/css/main.f3c99ccb.chunk.css",
+    "main.js": "/StratRouletteCSGO/static/js/main.1f6daeb4.chunk.js",
+    "main.js.map": "/StratRouletteCSGO/static/js/main.1f6daeb4.chunk.js.map",
+    "runtime-main.js": "/StratRouletteCSGO/static/js/runtime-main.e631c0a0.js",
+    "runtime-main.js.map": "/StratRouletteCSGO/static/js/runtime-main.e631c0a0.js.map",
+    "static/js/2.8e3acfa0.chunk.js": "/StratRouletteCSGO/static/js/2.8e3acfa0.chunk.js",
+    "static/js/2.8e3acfa0.chunk.js.map": "/StratRouletteCSGO/static/js/2.8e3acfa0.chunk.js.map",
+    "static/js/3.9e55f27c.chunk.js": "/StratRouletteCSGO/static/js/3.9e55f27c.chunk.js",
+    "static/js/3.9e55f27c.chunk.js.map": "/StratRouletteCSGO/static/js/3.9e55f27c.chunk.js.map",
+    "index.html": "/StratRouletteCSGO/index.html",
+    "static/css/main.f3c99ccb.chunk.css.map": "/StratRouletteCSGO/static/css/main.f3c99ccb.chunk.css.map",
+    "static/js/2.8e3acfa0.chunk.js.LICENSE.txt": "/StratRouletteCSGO/static/js/2.8e3acfa0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e631c0a0.js",
+    "static/js/2.8e3acfa0.chunk.js",
+    "static/css/main.f3c99ccb.chunk.css",
+    "static/js/main.1f6daeb4.chunk.js"
+  ]
+}
