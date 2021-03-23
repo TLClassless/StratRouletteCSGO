@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import ReactTooltip from "react-tooltip";
-// import axios from "axios";
 import "./App.css";
 import CtStrat from "./components/ctStrats";
 import TStrat from "./components/tStrats";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 class App extends Component {
   state = {
@@ -38,8 +39,9 @@ class App extends Component {
             place="bottom"
             effect="solid"
             backgroundColor="white"
-            textColor="black"
+            textColor="#304b74"
             offset={{ bottom: 15 }}
+            event="onMount"
           >
             Click to Change Sides
           </ReactTooltip>
@@ -50,6 +52,7 @@ class App extends Component {
 
     return (
       <div className={isCT ? "App ct" : "App t"}>
+        <Header />
         {Prompt}
         <div className="btn-div">
           <input
@@ -72,6 +75,7 @@ class App extends Component {
             {Tooltip}
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
